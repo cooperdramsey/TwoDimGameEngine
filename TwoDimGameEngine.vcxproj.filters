@@ -13,5 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{f4724870-9e4f-4258-b1af-1481d45485c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Main">
+      <UniqueIdentifier>{81b4f39e-7037-4b7d-8225-925e6e55a2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Define">
+      <UniqueIdentifier>{8328a047-e105-4d8e-a2e8-dc8ca3fb37e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Header Files\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="iostream.h">
+      <Filter>Header Files\Define</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
